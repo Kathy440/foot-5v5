@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    font-family:MV Boli Regular;
+}
+.header-top{
+    height: 100px;
+    background-color: orange;
+    padding-bottom: 5px;
+    font-size: 14px;
+    width: 100%;
+    z-index: 22;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu-header{
+    text-align: center;
+}
+
+.slide-articles{
+    margin-top: 120px;
+    width: 100%;
+}
+
+.bx-wrapper img {
+    width: 100% !important;
+}
+.bx-wrapper {
+    width: 100% !important;
+}
+
+.bx-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background: #fff;
+
+}
+.bx-wrapper {
+    max-width: 100% !important; /*permet de spécifier que la propriété est la plus importante */
+    width: 80% !important;
+}
+
+.bx-wrapper img {
+    width: 100% !important;
+}
+
+.bx-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.bouton{
+    margin-right: 5px;
+}
