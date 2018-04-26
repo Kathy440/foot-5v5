@@ -3,8 +3,9 @@ $(document).ready(function(){
 });
 
 $('.bxslider').bxSlider({
-    auto: true,
-    autoControls: false,
-    stopAutoOnClick:false,
-    pager: false,
+
+    adaptiveHeight: true,
+    auto:true, //slide automatique
+    controls:false, //disparition des fleches
+    pager:false
 });
