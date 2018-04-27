@@ -17,7 +17,6 @@ body
 .header-top{
     height: 144px;
     background: linear-gradient(to top,  RGBa(255,000,000,0.2), RGBa(255,000,000,0.8));
-
     padding-bottom: 5px;
     font-size: 14px;
     width: 100%;
@@ -61,7 +60,7 @@ a{
 }
 
 .carte{
-    border: 5px solid orangered;
+     border: 5px solid orangered;
 }
 
 .title-container{
