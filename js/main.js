@@ -3,9 +3,11 @@ $(document).ready(function(){
 });
 
 $('.bxslider').bxSlider({
-
+    responsive : true,
     adaptiveHeight: true,
     auto:true, //slide automatique
-    controls:false, //disparition des fleches
-    pager:false
+    controls:true, //disparition des fleches
+    pager:true,
+    easing : null,
+
 });
