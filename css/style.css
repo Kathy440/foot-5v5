@@ -9,14 +9,27 @@ body
 }
 
 .title{
-    text-align: center;
-    color: white;
-    margin-top: 10px;
-    font-family:MV Boli Regular;
+    color: orangered;
+    margin-right: 3%;
+    margin-left: 28%;
+    margin-top: 3px;
+
 }
+
+.titre-menu{
+    color: orangered;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 18px;
+
+}
+
 .header-top{
     height: 144px;
+<<<<<<< HEAD
     background: linear-gradient(to top,  RGBa(172,58,30,0.2), RGBa(172,58,30,1));
+=======
+>>>>>>> 80531cc91ab4c0cf986a917c9e5e2d95fb644714
     padding-bottom: 5px;
     font-size: 14px;
     width: 100%;
@@ -27,15 +40,20 @@ body
 }
 
 .menu-header{
-    text-align: center;
     margin-top: 24px;
-
 }
 
-
-.slide-articles{
-    margin-top: 160px;
+.trait{
+    border-top: 1px solid orangered;
+    width : 47%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.sous-menu{
+    display: block;
+}
+
 
 .bxslider {
     width: 100%;
@@ -61,7 +79,7 @@ a{
 }
 
 .carte{
-    border: 5px solid orangered;
+     border: 5px solid orangered;
 }
 
 .sibe-bar{
@@ -132,7 +150,7 @@ a{
 
 
 .title-container{
-    font-family: MV Boli Regular;
+
     text-align: center;
     margin-bottom: 20px;
     margin-top: 60px;
@@ -168,3 +186,21 @@ a{
     margin-top: 100px;
     margin-bottom: 200px;
 }
+<<<<<<< HEAD
+=======
+
+.btn-danger {
+    background-color: orangered;
+    border-color: orangered;
+}
+
+ul{
+    display: flex;
+    list-style:none;
+
+}
+
+.titre-menu:hover, .titre-menu:active{
+    font-size: 150%;
+}
+>>>>>>> 80531cc91ab4c0cf986a917c9e5e2d95fb644714
