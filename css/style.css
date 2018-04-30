@@ -16,8 +16,7 @@ body
 }
 .header-top{
     height: 144px;
-    background: linear-gradient(to top,  RGBa(255,000,000,0.2), RGBa(255,000,000,0.8));
-
+    background: linear-gradient(to top,  RGBa(172,58,30,0.2), RGBa(172,58,30,1));
     padding-bottom: 5px;
     font-size: 14px;
     width: 100%;
@@ -65,7 +64,6 @@ a{
     border: 5px solid orangered;
 }
 
-<<<<<<< HEAD
 .sibe-bar{
     width: 400px;
     border: 5px solid orangered;
@@ -77,7 +75,7 @@ a{
     left: 0;
     bottom: 0;
     width: 100%;
-    background: linear-gradient(to top,  RGBa(255,000,000,0.2), RGBa(255,000,000,0.8));
+    background: linear-gradient(to top,  RGBa(172,58,30,0.8), RGBa(172,58,30,0.2));
     height: 500px;
     
 }
@@ -133,8 +131,6 @@ a{
 }
 
 
-=======
->>>>>>> ef71bba12551a6c22b5f7ccbf2d18aef7181965e
 .title-container{
     font-family: MV Boli Regular;
     text-align: center;
