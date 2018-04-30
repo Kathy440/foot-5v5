@@ -8,6 +8,6 @@ $('.bxslider').bxSlider({
     auto:true, //slide automatique
     controls:true, //disparition des fleches
     pager:true,
-    easing : null,
+
 
 });

@@ -1,72 +1,89 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial;
 }
 body
 {
     background-color: black;
     width: 100%;
+    font-family: Arial;
 }
-
+                                /* * * * * * * * * * *
+                                * CSS HEADER        * *
+                                 * * * * * * * * * */
 .title{
-    color: orangered;
-    margin-right: 3%;
-    margin-left: 28%;
-    margin-top: 3px;
-
+    color: white;
+    float: left;
 }
 
 .titre-menu{
-    color: orangered;
+    color: white;
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 18px;
+    border-bottom: 0px solid white;
+    transition-property: width;
+}
+
+.titre-menu:hover{
+    border-width: 2px;
 
 }
 
+.container-header{
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    float: left;
+    border-bottom: 1px solid white;
+}
 .header-top{
     height: 144px;
     padding-bottom: 5px;
-    font-size: 14px;
     width: 100%;
     z-index: 22;
     position: fixed;
     top: 0;
     left: 0;
+
 }
 
 .menu-header{
-    margin-top: 24px;
+    float: right;
 }
 
-.trait{
-    border-top: 1px solid orangered;
-    width : 47%;
-    margin-left: auto;
-    margin-right: auto;
+ul{
+    display: flex;
+    list-style:none;
+
 }
 
-.sous-menu{
-    display: block;
-}
-
+                                /* * * * * * * *
+                                CSS SLIDER
+                                 * * * * * * * * */
 
 .bxslider {
     width: 100%;
 }
 
+.bx-wrapper {
+    -moz-box-shadow: 0 0 5px #0e0e0e;
+    -webkit-box-shadow: 0 0 5px #080808;
+    box-shadow: 0 0 5px #171616;
+     border: 0px solid black;
+     background: black;
+}
 img {
     width: 100%;
 }
 
-a{
-    font-family: Impact, Charcoal, sans-serif;
+.bx-wrapper, .bx-viewport {
+    height: 830px !important;
 }
-
-.bouton{
-    margin-right: 5px;
-}
-
+                                /* * * * * * * * *
+                                CSS MILIEU PAGE
+                                 * * * * * * * */
 .body-container{
     width: 50%;
     margin-right: auto;
@@ -79,10 +96,9 @@ a{
 }
 
 .title-container{
-
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 60px;
+    margin-bottom: 75px;
+    margin-top: 55px;
 }
 
 .fa-phone:before {
@@ -100,7 +116,9 @@ a{
 .fa-smile:before {
     margin-right: 5px;
 }
-
+/*
+CSS GRID
+ */
 .image-1{
     width: 80%;
 }
@@ -116,17 +134,7 @@ a{
     margin-bottom: 200px;
 }
 
-.btn-danger {
-    background-color: orangered;
-    border-color: orangered;
-}
 
-ul{
-    display: flex;
-    list-style:none;
-
-}
-
-.titre-menu:hover, .titre-menu:active{
-    font-size: 150%;
+h3{
+    margin-bottom: 40px;
 }
