@@ -52,10 +52,10 @@ body
     float: right;
 }
 
-ul{
+ul {
     display: flex;
-    list-style:none;
-
+    list-style: none;
+}
 .sous-menu{
     display: block;
 }
